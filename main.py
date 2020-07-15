@@ -23,13 +23,16 @@ RESULTS_SPREADSHEET = "COPY PASTE ID HERE"
 
 
 #FILL IN. A sample for format has been given.
-#Give a named range. You can use default named range or specify your own on the form sheet.
-#Change "F" to be the last column on your form.
+#Below, the list given requires Named Ranges. Named Ranges can be found by selecting a column or row of data on Google Sheets, right clicking and go to "Define Named Range".
+#In the list below, "B1:F" is given. "F" corresponds to the last column for which you have a prize while B1 corresponds to the first email of the column.
+#Only change "F" depending on how many prizes you have. If you have 2 prizes, change "F" to "F". If you have 3 prizes, change "F" to "G". This continues on. 
 ranges = ["\'Form Responses 1\'!B1:F"]
 
 #FILL IN. Sample has been given for two prizes has been given.
-# Change "B" to be the last column you have for prizes. If you have four prizes, then "B" should be "D" instead.
-#This field relates to the prize names for the result spreadsheet. 
+#Same as ranges, this list uses Named Ranges in order to select which areas to write data to the new spreadsheet.
+#Here, we have "Sheet1!A2:B". "A2" refers to the first name in a certain raffle pool. Do not change this. "B" refers to the last column for how many prizes you have.
+#If you have 1 prize, change "B" to "A". If 3 prizes, change "B" to "C". This continues on. The same methodology is used with the second item, "Sheet1!A1:B1".
+#However, do not change the number. Example: If you have 5 prizes, change "B1" to "E1".
 prizes = ["Sheet1!A2:B", "Sheet1!A1:B1"]
 
 # ---------------------------------- FILL IN PORTION ------------------------------------------------
