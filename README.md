@@ -14,8 +14,8 @@ This code uses the Google Sheets API in order to provide a connection between th
 
 ### Step 1
 Clone this respositorry to your computer.
-Create a Google Form using the template: [Sample Response Form](https://docs.google.com/spreadsheets/d/1RUxgSFgkED1AJzY_pKu4HLdCMCDRGGOKlYSIV9249wI/edit?usp=sharing).
-To do so, go to the top and find "Forms". From Forms, you should click "Edit Forms" to make your own version of the form. Follow the format of the form by only adding in prizes and nothing else.
+Create your own copy(go to "File"> "Make a copy") of the Google Form template: [Sample Response Form](https://docs.google.com/spreadsheets/d/1RUxgSFgkED1AJzY_pKu4HLdCMCDRGGOKlYSIV9249wI/edit?usp=sharing).
+Then, go to the top and find "Forms". From Forms, you should click "Edit Forms" to make your own version of the form. Follow the format of the form by only adding in prizes and nothing else.
 Create an empty Google Sheets that will be used for the resulting file in which you can use to determine the winner of your raffle.
 
 ### Step 2
