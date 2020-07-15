@@ -1,6 +1,6 @@
 # Online Raffle Handler
 
-Due to the concerns of COVID-19, most events will most likely go online. Most CKI big fundraising events require raffling in order to draw more people to attend the events. However, a situation comes up with online raffling is that by doing it manually, a stress-free user experience is not possible. Raffles have to be done 1 by 1 and response forms must be checked continuously for updates.
+Due to the concerns of COVID-19, most events will most likely go online. Most CKI big fundraising events require raffling in order to draw more people to attend the events. However, a situation comes up with online raffling as by doing it manually, a stress-free user experience is not possible. Raffles have to be done 1 by 1 and response forms must be checked continuously for updates.
 
 Therefore, to eliminate the stressful work that may come with setting up raffles, this code
   - provides a user-friendly experience for the one in charge of raffling and the one buying raffles
