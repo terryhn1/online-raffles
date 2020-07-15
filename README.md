@@ -13,15 +13,16 @@ This code uses the Google Sheets API in order to provide a connection between th
 ## Instructions on how to use the Code
 
 ### Step 1
+Clone this respositorry to your computer.
 Create a Google Form using the template: [Sample Response Form](https://docs.google.com/spreadsheets/d/1RUxgSFgkED1AJzY_pKu4HLdCMCDRGGOKlYSIV9249wI/edit?usp=sharing).
 To do so, go to the top and find "Forms". From Forms, you should click "Edit Forms" to make your own version of the form. Follow the format of the form by only adding in prizes and nothing else.
-Create an empty Google Sheets that will be used for the resulting file in which you can use to determine the winner of your raffle. 
+Create an empty Google Sheets that will be used for the resulting file in which you can use to determine the winner of your raffle.
 
 ### Step 2
 Make sure you have the latest Python installed. I encourage to download pip too, but you can run the code through Python's IDLE editor.
 
 ### Step 3
-Visit the [Google Sheets API Quickstart](https://developers.google.com/sheets/api/quickstart/python) website and follow Step 1 and 2. You will be downloading the necessary libraries and activating the Google Sheets API authentication for your account.
+Visit the [Google Sheets API Quickstart](https://developers.google.com/sheets/api/quickstart/python) website and follow Step 1 and 2. You will be downloading the necessary libraries and activating the Google Sheets API authentication for your account. When activating the Google Sheets API from the [Developer Website](https://console.cloud.google.com/apis/library/sheets.googleapis.com?authuser=1&project=grounded-camera-266302), you will need to create credentials in order to use the API. Follow the instructions as given, download the credentials.json file and add it to your local respository. 
 
 ### Step 4
 In **main.py**, there will be a fill-in section. In this section, you will need to find out the ID of the Google Sheets Form. One of the ID's will be a Google Sheet that collected the responses for the raffles and another one should just be an empty Google Sheets file.
